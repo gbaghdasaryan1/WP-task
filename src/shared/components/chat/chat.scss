@@ -1,0 +1,66 @@
+.WP-chat{
+    width: 75%;
+    height: 100vh;
+    position: relative;
+    background-color: #2a3942a8;
+}
+
+.WP-message-input{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 10px;
+    padding: 0 30px;
+
+
+    > input{
+        width: 100%;
+        height: 40px;
+        border: none;
+        background-color: #2a3942;
+        border-radius: 10px;
+        padding: 0 10px;
+        font-size: 17px;
+        color: whitesmoke;
+        outline: none;
+
+    }
+    > button{
+        height: 40px;
+        border: none;
+        padding: 0 5px;
+        background-color: #AEBAC1;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+}
+
+.WP-messages{
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 30px;
+    gap: 10px;
+}
+
+.WP-selected-contact-message{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.WP-selected-contact-message-text{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #3f4d579c;
+    color: whitesmoke;
+    letter-spacing: 0.5px;
+
+}
+
+.WP-selected-contact-date{
+    font-weight: 600;
+    font-size: 12px;
+}

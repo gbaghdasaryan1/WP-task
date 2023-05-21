@@ -1,0 +1,35 @@
+.WP-senders{
+    width: 25%;
+    height: 100vh;
+    background-color: #111B21;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 60px;
+}
+
+.WP-new-message{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 17px;
+    background-color: #40505a;
+}
+.WP-add-new-number{
+    padding: 10px 30px;
+
+    > input{
+        width: 80%;
+        height: 30px;
+        background-color: #26323a;
+        border: none;
+        padding: 0 10px;
+        color: whitesmoke;
+        border-radius: 5px;
+        outline: none;
+    }
+}

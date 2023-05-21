@@ -1,0 +1,9 @@
+IdInstance - 1101822327
+ApiTokenInstance - b91c332d5fcd47f6b775dfc1c7e8899bc490eb6aab9a41d796
+
+send message URL = https://api.green-api.com/waInstance1101822327/SendMessage/b91c332d5fcd47f6b775dfc1c7e8899bc490eb6aab9a41d796
+
+        body{
+                "chatId": "37494609304@c.us",
+                "message":"message"
+            }

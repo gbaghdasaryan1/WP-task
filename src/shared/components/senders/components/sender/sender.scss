@@ -1,0 +1,30 @@
+.WP-sender {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    padding: 0 20px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.3s;
+
+
+    &:hover{
+        background: #152027;
+        border-radius: 5px;
+    }
+}
+
+.WP-sender-name {
+    color: whitesmoke;
+    letter-spacing: 0.8px;
+    cursor: auto;
+
+    &:hover{
+        color: white;
+    }
+}
+
+.WP-sender-message {
+    color: rgb(115, 111, 111);
+}
